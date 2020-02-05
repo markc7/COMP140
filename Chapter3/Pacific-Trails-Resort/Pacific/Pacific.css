@@ -1,0 +1,10 @@
+body {
+  background-color: #FFFFFF;
+}
+h1 {
+  color: blue;
+}
+p.sansserif {
+  font-family: Arial, Helvetica, sans-serif;    
+  color: #666666;
+}
