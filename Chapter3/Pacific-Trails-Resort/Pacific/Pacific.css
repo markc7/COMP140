@@ -2,6 +2,7 @@ body {
     font-family: verdana, arial, sans-serif;
     background-color: #FFFFFF;
     color: #666666;
+	background-image: url(‘background.jpg’);
 }
 
 header {
