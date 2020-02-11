@@ -15,6 +15,7 @@ h1 {
     line-height: 200%;
 	background-image: url("sunset.jpg");
 	background-repeat: no-repeat;
+	background-position: right;
 	padding-left: 20px;
 	height: 72px;
 	margin-bottom: 0;
