@@ -1,0 +1,51 @@
+body {
+    font-family: verdana, arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #3F2860;
+}
+
+header {
+    text-align:center;
+    background-color: #9BC1C2;
+    
+}
+
+h1 {
+    line-height: 200%;
+}
+
+nav {
+    font-weight: bold;
+     text-align: center;
+}
+
+
+nav a   {   text-decoration: none;
+
+}
+
+
+.studio  {   font-style: italic;
+
+}
+
+#hero {
+height: 300px;
+background-image: url("yogamat.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+}
+
+footer {
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    background-color: #9BC1C2;
+}
+
+#wrapper{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
