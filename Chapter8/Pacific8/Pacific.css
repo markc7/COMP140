@@ -130,7 +130,33 @@ nav a:hover {
   color: #FFFFFF;
 }
 
+table
+{
+	border: 1px solid #3399cc;
+	border-collapse: collapse;
+	width: 90%;
+}
 
+td th
+{
+	padding: 5px;
+	border: 1px solid #3399cc;
+}
+
+td
+{
+	text-align: center;
+}
+
+.text
+{
+	text-align: left;
+}
+
+td:nth-of-type(2) 
+{
+    background-color: #F5FAFC;
+} 
 footer {
     font-size: .70em;
     font-style: italic;
