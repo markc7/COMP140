@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #2F2D2D;
-  background-image: url(NewJerseyBackground.jpg);
+  background-image: url(Beach2.jpg);
   background-size: cover;
   background-attachment: fixed;
   	
@@ -20,10 +20,9 @@ header {
 h2 {
 	font-family: "Lato", sans-serif;
 	font-size: 40px;
+	text-align: center;
 		
 }
-
-
 
 
 .sidenav {
@@ -68,9 +67,11 @@ h2 {
 
 .content {
 	background: gray;
+	background-position: center;
 	opacity: 0.9;
 	width: 93.7%;
 	padding: 40px;
+	text-align: center;
 	
 }
 
