@@ -195,6 +195,11 @@ video, embed{
 	padding-left: 2em;
 }
 
+.leftfloat	{
+			float: left;
+			margin: 1em;
+			
+			}
 
 @media only screen and (max-width: 1024px) {
   body {
