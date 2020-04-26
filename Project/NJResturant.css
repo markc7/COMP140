@@ -64,7 +64,6 @@ h2 {
   .sidenav a {font-size: 18px;}
 }
 
-
 .content {
 	background: gray;
 	background-position: center;
@@ -75,6 +74,22 @@ h2 {
 	
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
   footer {
   position: fixed;
   left: 0;
