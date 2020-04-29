@@ -32,17 +32,18 @@ function closeNav() {
 	
  
 <h3>Contact Form</h3>
+<p>Required fields are marked with an asterisk *</p>	
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.."> 
+    <label for="myFName">*First Name:</label>
+    <input type="text" name="myFName" id="myFName" required="required" placeholder="Your first name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="myLName">*Last Name:</label>
+	<input type="text" name="myLName" id="myLName" required="required" placeholder="Your last name..">
 	  
-	      <label for="lname">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email address..">
+	   <label for="myEmail">*E-mail:</label>
+	   <input type="email" name="myEmail" id="myEmail" size="35" required="required" placeholder="Your email here..">
 
     <label for="state">State</label>
   <select id="state" name="state">
